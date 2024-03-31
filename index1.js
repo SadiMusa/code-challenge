@@ -1,7 +1,10 @@
+function isValidMark(mark){
+    console.log(mark >=0 && mark <= 100);
+}
 
 
-
-if (marks >= 0 && marks <= 100) {
+function getGrades(mark)
+{
     
     let grade='';
     if (marks > 79) {
