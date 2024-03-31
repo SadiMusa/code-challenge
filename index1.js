@@ -1,16 +1,3 @@
-function courseWork(){
-  let sum = 0;
-  let num = 0;
-  this.addScore = function(score){
-  if (score < 0) {score = 0;}
-    if (score > 100) {score = 100;}
-    sum += score;
-    num++;
-  }
-  this.getAverage = function(){
-    return (sum/num);
-  } 
-}
 
 
 
